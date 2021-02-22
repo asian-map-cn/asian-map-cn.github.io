@@ -74,7 +74,7 @@ function initLegend() {
   // legend.style.height = "6rem"
 
   title = document.createElement("h2")
-  title.innerHTML = "Chinese American Population"
+  title.innerHTML = "Chinese American Population (2010 Census)"
   legend.appendChild(title)
 
   for (let level of Object.keys(COLOR_PALETE)) {
